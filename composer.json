@@ -1,7 +1,7 @@
 {
-    "name": "sensu/weixin-share",
-    "description": "weixin share.",
-    "keywords": ["weixin", "laravel", "share", "分享", "微信分享"],
+    "name": "sensu/laravel-wechat-share",
+    "description": "laravel wechat share",
+    "keywords": ["wechat","weixin", "laravel", "share", "分享", "微信分享"],
     "license": "MIT",
     "authors": [
         {
@@ -9,5 +9,17 @@
             "email": "208927877@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Sensu\\WechatShare\\"  : "src"
+        },
+        "files" : [
+            "src/helper.php"
+        ],
+        "classmap"  : [
+            "src/Common"
+        ]
+    }
 }
+
