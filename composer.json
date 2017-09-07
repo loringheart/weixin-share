@@ -1,6 +1,6 @@
 {
-    "name": "sensu/laravel-wechat-share",
-    "description": "laravel wechat share",
+    "name": "sensu/weixin-share",
+    "description": "weixin share.",
     "keywords": ["wechat","weixin", "laravel", "share", "分享", "微信分享"],
     "license": "MIT",
     "authors": [
